@@ -31,7 +31,8 @@
         <remove-project name="platform/prebuilts/qemu-kernel" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/vayu" name="pocox3pro/device_xiaomi_vayu" remote="github" revision="derp" />
-        <project path="vendor/xiaomi/vayu" name="pocox3pro/vendor_xiaomi_vayu" remote="github" revision="fluid-r" />
+        <project path="device/xiaomi/vayu" name="pocox3pro/device_xiaomi_vayu" remote="github" revision="derpr" />
+        <project path="vendor/xiaomi/vayu" name="pocox3pro/vendor_xiaomi_vayu" remote="github" revision="derpr" />
+        <project path="device/xiaomi/vayu-prebuilt" name="pocox3pro/android_device_xiaomi_vayu-prebuilt" remote="github" revision="derpr" />
 
 </manifest>
