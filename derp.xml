@@ -32,11 +32,15 @@
         <remove-project name="kernel/tests" />
         <remove-project name="platform/prebuilts/android-emulator" />
         <remove-project name="platform/prebuilts/qemu-kernel" />
+        <remove-project name="packages_apps_Settings" />
+        <remove-project name="frameworks_base" />
 
         <!-- Sync trees -->
         <project path="device/xiaomi/vayu" name="pocox3pro/device_xiaomi_vayu" remote="github" revision="derpr" />
         <project path="vendor/xiaomi/vayu" name="pocox3pro/vendor_xiaomi_vayu" remote="github" revision="derpr" />
         <project path="kernel/xiaomi/vayu" name="xawlw/android_kernel_xiaomi_vayu" remote="github" revision="11" />
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="dragon" revision="master" clone-depth="1" />
+        <project path="packages/apps/Settings" name="pocox3pro/packages_apps_Settings" remote="github" revision="11" clone-depth="1" />
+        <project path="frameworks/base" name="pocox3pro/frameworks_base" remote="github" revision="11" clone-depth="1" />
 
 </manifest>
