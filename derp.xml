@@ -35,9 +35,8 @@
         <remove-project name="device/generic/opengl-transport" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/vayu" name="pocox3pro/device_xiaomi_vayu" remote="github" revision="derpr" />
-        <project path="vendor/xiaomi/vayu" name="pocox3pro/vendor_xiaomi_vayu" remote="github" revision="derpr" />
-        <project path="kernel/xiaomi/vayu" name="xawlw/android_kernel_xiaomi_vayu" remote="github" revision="11" />
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="dragon" revision="master" clone-depth="1" />
+        <project path="device/xiaomi/vayu" name="pocox3pro/device_xiaomi_vayu" remote="github" revision="test" />
+        <project path="vendor/xiaomi/vayu" name="pocox3pro/vendor_xiaomi_vayu" remote="github" revision="arrow-11.0" />
+        <project path="device/xiaomi/vayu-prebuilt" name="pocox3pro/android_device_xiaomi_vayu-prebuilt" remote="github" revision="derpr" />
 
 </manifest>
