@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+        <remote  name="dragon"
+              fetch="https://github.com/kdrag0n" />
+
         <!-- Sync trees -->
         <project path="device/xiaomi/vayu" name="pocox3pro/android_device_xiaomi_vayu" remote="github" revision="havoc" />
         <project path="device/xiaomi/sm8150-common" name="pocox3pro/android_device_xiaomi_sm8150-common" remote="github" revision="havoc" />
-        <project path="vendor/xiaomi" name="pocox3pro/android_vendor_xiaomi" remote="github" revision="lineage-18.1" />
-        <project path="kernel/xiaomi/sm8150" name="xiaomi-sm8150-devs/android_kernel_xiaomi_sm8150" remote="github" revision="lineage-18.1" />
+        <project path="vendor/xiaomi" name="pocox3pro/android_vendor_xiaomi" remote="github" revision="derp" />
+        <project path="kernel/xiaomi/sm8150" name="Jebaitedneko/android_kernel_xiaomi_vayu" remote="github" revision="base" />
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="dragon" revision="master" clone-depth="1" />
 
 </manifest>
