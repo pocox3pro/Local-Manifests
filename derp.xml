@@ -4,6 +4,9 @@
         <remote name="github"
                 fetch="https://github.com" />
 
+        <remote name="gitlab"
+                fetch="https://gitlab.com" />
+
         <!-- Remove some projects -->
 	<remove-project name="device/common"/>
 	<remove-project name="device/generic/arm64"/>
@@ -36,5 +39,6 @@
         <project path="vendor/xiaomi/vayu" name="ArrowOS-Devices/android_vendor_xiaomi_vayu" remote="github" revision="arrow-11.0" />
         <project path="kernel/xiaomi/vayu" name="Jebaitedneko/android_kernel_xiaomi_vayu" remote="github" revision="base" />
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r433403" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r433403" remote="gitlab" revision="11.0" clone-depth="1" />
 
 </manifest>
