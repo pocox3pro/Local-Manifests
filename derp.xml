@@ -35,7 +35,7 @@
         <remove-project name="device/generic/opengl-transport" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/vayu" name="pocox3pro/android_device_xiaomi_vayu" remote="github" revision="test7" />
+        <project path="device/xiaomi/vayu" name="pocox3pro/android_device_xiaomi_vayu" remote="github" revision="test8" />
         <project path="vendor/xiaomi/vayu" name="ArrowOS-Devices/android_vendor_xiaomi_vayu" remote="github" revision="arrow-11.0" />
         <project path="kernel/xiaomi/vayu" name="Jebaitedneko/android_kernel_xiaomi_vayu" remote="github" revision="base" />
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
